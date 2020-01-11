@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*
+
+NAV BG :			#425182 (BLEU FONCÉ)
+NAV A :				#C2C7D6 (BLEU/GRIS PÂLE)
+NAV AHOVER :		#FFFFFF (BLANC)
+
+BODY A :			#425182 (BLEU FONCÉ)
+BODY AHOVER :		#000000 (NOIR)
+
+*/
+
+#bodystyle a {
+	color: #425182;
+	text-decoration: underline;
+}
+
+#bodystyle a:hover {
+	color: #000000;
+}
+
+#navbg {
+	background-color: #425182;
+}
+
+#navlinks a {
+	color: #C2C7D6;
+	text-decoration: none;
+}
+
+#navlinks a:hover {
+	color: #FFFFFF;	
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+	position: absolute;
+	top: 35px;
+}
+
+.dropdown-menu {
+	background-color: #425182;
+}
+
+.dropdown-menu:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-item:hover {
+	background-color: #425182;
+}
+
+#headerslogan {
+	margin-top: 16px;
+	/*	margin-bottom: 0px; */
+}
+
+#headerlangue {
+	margin-top: 16px;
+	/*	margin-bottom: 0px; */
+}
+
+#tiredemployee {
+	float: left;
+	padding-right: 20px;
+}
+
+#headline {
+	overflow: auto;	
+}
+
+#symbolerevendication {
+	float: left;
+	height: 40px;
+	margin-right: 16px;
+}
+
+#imageanimation2, #imageanimation3 {
+	display: none;
+}
+
+iframe.youtubevideo {
+	border: none;
+}
+
+#cartemanifestations {
+	height: 654px;
+	width: 748px;
+}
+
+#organigramme a {
+	color: black;
+	text-decoration: none;
+}
+
+.mandatoryinput::after {
+	content: " *";
+	color: red;
+	font-weight: bold;
+}
+
+#footerbg {
+	background-color: #425182;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#footerbg a {
+	color: #C2C7D6; 
+	text-decoration: none;
+}
+
+#footerbg a:hover {
+	color: #FFFFFF;
+	text-decoration: none;	
+}
+
+#footeradresse {
+	color: #FFFFFF;
+	margin-bottom: 0px;
+}
+
+#footerinfo {
+	color: #FFFFFF;
+}

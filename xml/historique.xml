@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<liste>
+	<greve datedebut="2019-12-12" datefin="2019-12-13" cause="Pas assez de café gratuit"></greve>
+	<greve datedebut="2019-12-14" datefin="2019-12-15" cause="Pas assez de vacances"></greve>
+	<greve datedebut="2019-12-16" datefin="2020-12-16" cause="Canadien pas assez bon"></greve>
+</liste>
